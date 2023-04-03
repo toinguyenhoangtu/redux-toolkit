@@ -2,6 +2,7 @@ export interface Post{
     id: string
     title: string
     description: string
-    publishedDate: boolean
-    featureImage:string
+    publishDate: string
+    featuredImage:string
+    published: boolean
 }
